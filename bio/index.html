@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>MYDSmart</title>.
+    <link rel="stylesheet" href="./index.css" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.birds.min.js"></script>
+    <script>
+        window.addEventListener('DOMContentLoaded', () => {
+            VANTA.BIRDS({
+                el: "#vanta",
+                mouseControls: true,
+                touchControls: true,
+                gyroControls: true,
+                minHeight: 200.00,
+                minWidth: 200.00,
+                scale: 1.00,
+                scaleMobile: 1.00,
+                backgroundAlpha: 0.0
+            })
+
+            const main = document.querySelector('main')
+            main.style.opacity = 1
+        })
+
+    </script>
+</head>
+    <body>
+        <div id="vanta"></div>
+        <main>
+        <header>
+            <img  src="./images/neckR.jpg" />
+            <h1>@mydsmart.com</h1>
+        </header>
+        <ul>
+            <li>
+                <a href="https://mydsmart.company.site/">
+                Official website
+                </a>
+            </li>
+            <li>
+            <a href="https://www.youtube.com/channel/UCh346FCzxVjRtzLeACe30_Q">
+                YouTube
+            </a>
+            </li>
+            <li>
+            <a href="https://www.twitter.com/jonathanjnkomo">
+                Twitter
+            </a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/jonathan-nkomo-84a10877/">
+                    LinkedIn
+                </a>
+            </li>
+        </ul>
+        </main>
+            
+    </body>
+
+</html>
